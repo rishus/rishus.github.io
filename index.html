@@ -44,6 +44,26 @@ title: Home
 </h3>
 <article class="post">
   <div class="post-content">
+    <h2 class="post-title">LULC-Net: Generalized convolution neural network classfier
+for detecting land use changes from satellite data</h2>
+    <p>Preliminary investigation of a novel application of convolutional neural networks (CNNs), viz.,
+	locating regions that have undergone land use and land cover changes.
+    </p>
+    <ul>
+      <li>Developed an algorithm, that strategically combines known algorithms and labels
+data to produce high quality labels describing land use and land change.</li>
+      <li>The CNN currently consists of 3 convolutional and 3 fully connected layers.</li>
+      <li>All training and validation was done on NVIDIA p100 GPU which features 3584 1GHz cuda cores  with 12GB of memory. </li>
+      <li>The work has broader significance on detecting changes from image stream from motion camera and webcam.</li>
+    </ul>
+
+For a detailed report
+on the implementation and report see: <a href="lulc-net.pdf"> lulc-net.pdf</a>
+</article>
+
+
+<article class="post">
+  <div class="post-content">
     <h2 class="post-title">Detection of trends and changes in land use using satellite images</h2>
     <p>Designed and developed an ensemble based approach for change detection
       from spatio-temporal stack of satellite images. The approach 
@@ -79,6 +99,20 @@ title: Home
   </div>
 </article>
 
+<article class="post">
+  <div class="post-content">
+    <h2 class="post-title">Detecting users with dependency traits in Twitter</h2>
+    <p>  Developed technique to identify users exhibiting dependence (anomously high activity) to a particular 
+      lifestyle such as cosmetics, shopping, etc.
+    </p>
+    <ul>
+    <li> Developed focussed crawler that, starting with a set of seed users, grows the potential pool 
+        of candidate users through biased exploration of the follower-followee graph.</li>
+    <li> Analyzed approx. 10 million users, 10 billion tweets, 1 billion edges, and over 20 facets of the users. </li>
+    <li> Analytics was written in python while data managment was done using database. This allowed for concurrent processing of various phases of the analytics pipeline </li>
+    </ul>
+</article>
+
 
 <article class="post">
   <div class="post-content">
@@ -91,7 +125,7 @@ title: Home
 	be computationally demanding </li>
       <li> identified generic  programming (C++ templates) as natural constructs to 
 	express recursive integrals and their computations</li>
-      <li> developed strategy to parallelize the computation using linux threads </li>
+      <li> developed strategy to parallelize the computation using linux threads </li>re
     </ul>
   </div>
 </article>
@@ -162,5 +196,3 @@ title: Home
 
 
 		
-  
-
