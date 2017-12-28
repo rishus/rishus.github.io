@@ -1,4 +1,11 @@
 
+* How to run
+** installs before running
+create Gemfile
+
+bundle exec jekyll serve
+
+
 * Code layout
 ** assests/
 *** css 
@@ -23,5 +30,6 @@ defined new CSS blocks
 
 * Issues
 ** 404.html: go to homepage not working
+
 
 
